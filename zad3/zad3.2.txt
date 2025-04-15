@@ -1,0 +1,20 @@
+Zad 3.2 (zakładam że średniki oznaczają przejście do nowej linii, jeśli tak nie jest to wszystkie średniki też są błędami)
+
+L = [3, 5, 4] ; L = L.sort()
+metoda sort zwraca NULL więc L będzie puste
+
+
+x, y = 1, 2, 3
+liczba wartości po prawej stronie nie odpowiada liczbie zmiennych po lewej
+
+X = 1, 2, 3 ; X[1] = 4
+ X to krotka które są niemodyfikowalne
+
+X = [1, 2, 3] ; X[3] = 4
+indeksy liczymy od zera więc X nie posiada indeksu 3 (ma tylko indeksy 0, 1, 2)
+
+X = "abc" ; X.append("d")
+łańcuchy znaków są niemodyfikowalne i nie posiadają metody append
+
+L = list(map(pow, range(8)))
+funkcja pow wymaga argumentów: podstawy i wykładnika

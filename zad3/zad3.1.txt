@@ -1,0 +1,14 @@
+Zad 3.1
+
+x = 2; y = 3;
+if (x > y):
+    result = x;
+else:
+    result = y; 
+średniki są nie potrzbne w pythonie
+
+for i in "axby": if ord(i) < 100: print (i)
+Powyższy kod nie zadziała ponieważ mamy złą składnie for, to co chcemy żeby było w pętli powinno być w następnej lini i po tabluacji
+
+for i in "axby": print (ord(i) if ord(i) < 100 else i)
+Powyższy kod jest poprawny
